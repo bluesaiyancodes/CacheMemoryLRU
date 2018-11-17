@@ -19,7 +19,13 @@ int main() {
     
     ifstream infile;
     infile.open("afile.dat");
-    
+    /*The file afile.dat should be in format of strings only
+     *Like -
+     *bishal
+     *jeevan
+     *subrat
+     *and so on
+     */
     cout<<"Reading from file"<<endl;
 
     
